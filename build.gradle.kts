@@ -24,6 +24,18 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	// https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api
+	implementation("org.apache.maven:maven-plugin-api:3.9.6")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("mysql:mysql-connector-java:8.0.28")
+	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// https://mvnrepository.com/artifact/com.h2database/h2
+	testImplementation("com.h2database:h2:1.4.200")
+	runtimeOnly ("com.h2database:h2")
+	implementation ("mysql:mysql-connector-java")
+
+
 }
 
 kotlin {
