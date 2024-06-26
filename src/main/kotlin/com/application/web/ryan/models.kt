@@ -1,3 +1,5 @@
+package com.application.web.ryan
+
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.Id
@@ -12,4 +14,5 @@ import jakarta.persistence.Id
         // standard constructors
 
         // standard getters and setters
+
     }
